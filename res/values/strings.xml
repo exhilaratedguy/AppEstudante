@@ -1,0 +1,34 @@
+<resources>
+    <string name="app_name">AppEstudante</string>
+    <string name="botao1">Ver Disciplinas</string>
+    <string name="botao2">Adicionar Disciplina</string>
+    <string name="botao3">Adicionar Evento</string>
+    <string name="botao4">Definições</string>
+    <string name="app_name_spaced">App Estudante</string>
+    <string name="press_continue">Pressione para continuar</string>
+    <string name="made_in_uma">Criado na UMa</string>
+    <string name="dark_mode">Dark mode</string>
+    <string name="notifications">Notificações</string>
+    <string name="classificar">Classifique-nos</string>
+    <string name="sugestoes">Envie sugestões</string>
+    <string name="report_bug">Reporte um bug</string>
+    <string name="creditos">Créditos</string>
+    <string name="dev_name_1">Diogo Cruz</string>
+    <string name="dev_name_2">Diogo Nóbrega</string>
+    <string name="dev_name_3">Marco Lima</string>
+    <string name="dev_name_4">Miguel Marques</string>
+    <string name="nome_disciplina">Nome:</string>
+    <string name="titulo_adicionar_disciplina">Adicionar Disciplina</string>
+    <string name="titulo_adicionar_evento">Adicionar Evento</string>
+    <string name="disciplina_evento">Disciplina:</string>
+    <string name="nome_evento">Nome:</string>
+    <string name="data">Data:</string>
+    <string name="hora">Hora:</string>
+    <string name="preferences_file_name">shared_preferences_file_app_estudante</string>
+    <string name="definicoes">Definições</string>
+    <string name="disciplinas">Disciplinas</string>
+    <string name="titulo_ver_eventos">Eventos</string>
+    <string name="titulo_ver_notas">Notas</string>
+    <string name="adicionar_nota">Adicionar nova nota</string>
+
+</resources>

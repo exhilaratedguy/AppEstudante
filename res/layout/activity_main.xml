@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.marco.appestudante.MainActivity">
+
+    <Button
+        android:id="@+id/button_ver_disciplinas"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/ver_disciplinas"
+        android:onClick="verDisciplinas"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_adicionar_disciplina"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="100dp"
+        android:background="@drawable/adicionar_disciplina"
+        android:onClick="adicionarDisciplina"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button_adicionar_evento"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/adicionar_evento"
+        android:onClick="adicionarEvento"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_ver_disciplinas" />
+
+    <Button
+        android:id="@+id/button_definicoes"
+        android:layout_width="115dp"
+        android:layout_height="115dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/definicoes"
+        android:onClick="definicoes"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_adicionar_disciplina" />
+
+    <TextView
+        android:id="@+id/textView_ver_disciplinas"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/botao1"
+        android:textAlignment="center"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="@+id/button_ver_disciplinas"
+        app:layout_constraintStart_toStartOf="@+id/button_ver_disciplinas"
+        app:layout_constraintTop_toBottomOf="@+id/button_ver_disciplinas" />
+
+    <TextView
+        android:id="@+id/textView_adicionar_disciplina"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/botao2"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/button_adicionar_disciplina"
+        app:layout_constraintStart_toStartOf="@+id/button_adicionar_disciplina"
+        app:layout_constraintTop_toBottomOf="@+id/button_adicionar_disciplina" />
+
+    <TextView
+        android:id="@+id/textView_adicionar_evento"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/botao3"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/button_adicionar_evento"
+        app:layout_constraintStart_toStartOf="@+id/button_adicionar_evento"
+        app:layout_constraintTop_toBottomOf="@+id/button_adicionar_evento" />
+
+    <TextView
+        android:id="@+id/textView_definicoes"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:text="@string/botao4"
+        android:textAlignment="center"
+        app:layout_constraintEnd_toEndOf="@+id/button_definicoes"
+        app:layout_constraintStart_toStartOf="@+id/button_definicoes"
+        app:layout_constraintTop_toBottomOf="@+id/button_definicoes" />
+
+    <ImageView
+        android:id="@+id/imageView_fundo"
+        android:layout_width="match_parent"
+        android:layout_height="137dp"
+        android:adjustViewBounds="false"
+        android:baselineAlignBottom="false"
+        android:contentDescription="@string/app_name_spaced"
+        android:cropToPadding="false"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:srcCompat="@drawable/fundo" />
+
+</android.support.constraint.ConstraintLayout>
